@@ -29,5 +29,10 @@ module.exports = function(defaults) {
   // https://getbootstrap.com/
   app.import('node_modules/bootstrap/dist/js/bootstrap.min.js');
 
+  // Chart.js for graphs
+  // https://www.chartjs.org/
+  app.import('node_modules/chart.js/dist/Chart.min.js');
+  app.import('node_modules/chart.js/dist/Chart.min.css');
+
   return app.toTree();
 };
